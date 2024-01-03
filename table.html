@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            all: unset;
+            background-color: teal;
+        }
+
+        #div1 {
+            height: 100vh;
+            background-color: teal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+        }
+
+        #div2 {
+            overflow: auto;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            background-color: #fff;
+            height: 580px;
+            width: 80%;
+            min-width: 400px;
+            /* width: 1200px; */
+            /* margin-top: 50px; */
+            /* margin-left: 50px; */
+        }
+        #div2::-webkit-scrollbar
+        {
+            width: 0%;
+        }
+
+        .table {
+            font-size: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .top {
+            font-size: 25px;
+            background-color: lightsalmon;
+            height: 50px;
+        }
+
+        .data {
+            text-align: center;
+            height: 50px;
+            box-shadow: 0px 0px 2px gray;
+        }
+
+        .logo {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-right: 20px;
+            font-weight: lighter;
+            color: grey;
+            cursor: pointer;
+        }
+
+        span {
+            margin-bottom: 20px;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        thead
+        {
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <div id="div2">
+            <div class="table"> <span> Table Name </span>
+                <div class="logo"> <i class="fa fa-search" style="font-size:24px"></i>
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <i class="fa fa-ellipsis-v" style="font-size:24px"></i>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr class="top">
+                        <th>Status</th>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Requests</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="data">
+                        <td>Blocked</td>
+                        <td>Marley Doe</td>
+                        <td>124562</td>
+                        <td> 22</td>
+                    </tr>
+
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    <tr class="data">
+                        <td>Active</td>
+                        <td>rayna </td>
+                        <td>124562</td>
+                        <td> 12</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
